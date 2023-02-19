@@ -55,10 +55,7 @@ titanic_pipe = Pipeline(
             "Logit",
             LogisticRegression(
                 random_state=0,
-                max_iter=1000,
-                penalty="l1",
                 C=0.0005,
-                solver="liblinear",
             ),
         ),
     ]
