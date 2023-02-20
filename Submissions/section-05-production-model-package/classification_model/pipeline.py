@@ -8,9 +8,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 
-from regression_model.config.core import config
-from regression_model.processing import features as pp
-from regression_model.processing.features import ExtractLetterTransformer
+from classification_model.config.core import config
+from classification_model.processing import features as pp
+from classification_model.processing.features import ExtractLetterTransformer
 
 
 titanic_pipe = Pipeline(
