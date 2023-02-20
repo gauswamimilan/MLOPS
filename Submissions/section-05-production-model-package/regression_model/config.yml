@@ -50,4 +50,4 @@ CATEGORICAL_VARIABLES:
   - embarked
   - title
 
-CABIN: sex
+CABIN: cabin
